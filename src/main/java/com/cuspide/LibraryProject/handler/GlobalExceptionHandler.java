@@ -1,7 +1,7 @@
-package com.cuspide.LibraryProject.Handler;
+package com.cuspide.LibraryProject.handler;
 
-import com.cuspide.LibraryProject.Exceptions.BadRequestException;
-import com.cuspide.LibraryProject.Exceptions.ResourceNotFoundException;
+import com.cuspide.LibraryProject.exceptions.BadRequestException;
+import com.cuspide.LibraryProject.exceptions.ResourceNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

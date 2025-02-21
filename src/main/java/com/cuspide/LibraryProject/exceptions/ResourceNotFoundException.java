@@ -1,4 +1,4 @@
-package com.cuspide.LibraryProject.Exceptions;
+package com.cuspide.LibraryProject.exceptions;
 
 public class ResourceNotFoundException extends RuntimeException {
     public ResourceNotFoundException(String message) {
