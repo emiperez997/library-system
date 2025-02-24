@@ -1,12 +1,16 @@
 package com.cuspide.LibraryProject.user;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
+import lombok.Data;
 
+import java.util.UUID;
+
+@Data
 @Entity
 public class User {
     @Id
-    private String id;
+    @GeneratedValue(strategy = GenerationType.UUID)
+    private UUID id;
     private String name;
     private String username;
     private String email;
